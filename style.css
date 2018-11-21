@@ -70,8 +70,21 @@ nav ul li a {
   section.sec1 {
     width: 100%;
     height: 100vh;
-    background: url(btl.jpg);
+    background: url(backcement.jpg);
     background-size: cover;
     background-position: center;
   }
+  
+  .content {
+    margin-top: 80px;
+  }
+  
+  .content {
+    width: 900px;
+    margin: 30px auto;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
   
