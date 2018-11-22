@@ -35,7 +35,7 @@
 
     ==============================================================================================
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     
 
@@ -65,39 +65,33 @@
 
    <!-- Navigation -->
 
-   ===================================================================== 
-   <html>
-       <head>
-           <meta charset="utf-8">
-           <title>Navigation Bar</title>
-           <link rel="stylesheet" type="text/css" href="style.css">
-           <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
-           <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-           <script type="text/javascript">
-            $(window).on('scroll', function() {
-             if($(window).scrollTop()) {
-              $('nav').addClass('black');
-             }
-             else {
-              $('nav').removeClass('black');
-             }
-            })
-           </script>
-       </head>
-       <body>
-           <div class="wrapper">
-            <nav>
-             <div class="logo">btl</div>
-             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Stories</a></li>
-              <li><a href="#">Communities</a></li>
-              <li><a href="#">Contact Us</a></li>
-             </ul>
-            </nav>
-            <section class="sect1"></section>
-            <section class="content">
-             <p>
-              
-             </p>
+   =============================================================================
+   
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Blades Take Lives</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#stories">Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#communities">Communities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
