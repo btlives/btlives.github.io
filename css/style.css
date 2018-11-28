@@ -6,7 +6,7 @@ font-family: Century Gothic;
 
 
 header{
-  background-image: linear gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../back.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../back.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -64,4 +64,18 @@ ul li.active a{
 .title h1{
   color: #FF0000;
   font-size: 70px;
+}
+
+.button{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
 }
