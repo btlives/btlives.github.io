@@ -85,3 +85,30 @@ ul li.active a{
   background-color: #0000ff;
   color: #000;
 }
+
+ <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ADD8E6;;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: 	#D3D3D3;
+}
+
+</style>
