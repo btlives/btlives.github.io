@@ -154,3 +154,27 @@ slide p {
   30.0001% {left: -100%; width: 0%;}
   100% {left: 100%;, width: 0%;}
 }
+
+a:link {color:#ffffff;text-decoration:none;font-family:verdana;}    /* unvisited link */
+a:visited {color:#ffffff;text-decoration:none;font-family:verdana;} /* visited link */
+a:hover {color:#ffffff;text-decoration:none;font-family:verdana;background:#226078;}   /* mouse over link */
+a:active {text-decoration:underline;text-decoration:none;font-family:verdana;}  /* selected link */
+/*this is the body css*/
+body
+{
+background-color:#62b1d0;
+}
+
+
+div.box {
+    background-color: white;
+    
+    clear: left;
+    margin: 9px 0 0 0;
+    padding: 8px 10px;
+    width: 900px;
+    
+}
+.clrboth{
+clear:both;
+}
