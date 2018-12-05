@@ -38,21 +38,23 @@
             </li>
           </ul>
 
-            <div class="header">
+          <body>  
+            <div class="contact-title">
               <h1>Contact Us</h1>
-                <div class="left">
-                  <p>
-                    If you have any questions or inquiries, leave us a message here. We will gladly answer them for you! We will try to respond as soon as possible.
-                  </p>
+              <h2>We would Love To Hear From You!</h2>
+              <h3>If you have any questions or inquiries, leave us a message here. We will gladly answer them for you! We will try to respond as soon as possible.</h3>
             </div>
               
-            <div class="form">
-              <form>
-                <input type="text" plceholder="Name" />
-                <input type="text" plceholder="Email" />
-                <input type="text" id="msg" plceholder="Message" />
+            <div class="contact-form">
+              <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="Name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Email" required>
+                <br>
+                <text area="message" class="form-control" placeholder="Message" row="5" required></textarea>
+                <br>
+                <input type="submit" class="form-control" value="SEND MESSAGE">
               </form>
-              <button type="button">Submit</button>
             </div>
                 
                 
