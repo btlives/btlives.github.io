@@ -1,0 +1,23 @@
+<head>
+<style>
+.container{
+ float: left;
+  width: 25%;
+  margin-top: 6px;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+<h> Write your story here </h>
+<div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write something.." maxlength="100" style="height:200px"></textarea>
+    </div>
+    
+    <input type = "Submit your story">
+
+</body>
