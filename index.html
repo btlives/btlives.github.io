@@ -37,68 +37,67 @@
 
     <link rel="icon" type="ico" sizes="96x96" href="faviconbtl.ico">
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
-
     </head>
 
-    <body id="page-top">
+    <body>
 
     
    <!-- Navigation -->
-<nav>
-   <section class="nav-container">
-       <aside class="logo"><img src="btl.png"></aside>
-       <aside class="menu">
-           <div class="menu-content">
-               <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
-               <a class="nav-link js-scroll-trigger" href="About.html">About Us</a>
-               <a class="nav-link js-scroll-trigger" href="stories.html">Stories</a>
-               <a class="nav-link js-scroll-trigger" href="communities.html">Communities</a>
-               <a class="nav-link js-scroll-trigger" href="contact.html">Contact Us</a>
-               <i class="fa fa-unlock-alt"></i><a href="#" id="login">Login</a> | <i class="fa fa-user"></i><a href="#">Register</a>
-           </div>
-       <div class="arrow-up"></div>
-       </aside>
-       <div class="login-form">
-          <form>
-              <label>Username</label>
-              <div>
-                  <input type="text" placeholder="Username" required/>
-              </div>
-              <label>Password</label>
-              <div>
-                  <input type="password" placeholder="Password" required/>
-              </div>
-              <div>
-                  <input type="submit" value="Log In"/>
-              </div>
-              <div>
-                  <a href="#" style="text-decoraton: none;position: relative;top: 20px;font-size: 16px;ccolor:gray;">Forgot Your Password?</a>
-              </div>
-          </form>
-       </div>
-   </section>
-   
-</nav>
-  
- <script type="text/javascript">     
- $(document).ready(function(){
-    var arrow = $(".arrow-up");
-    var form = $(".login-form");
-    var status = false;
-    $("#login").click(function(event){
-       event.preventDefault();
-       if(status == false){
-          arrow.fadeIn();
-          form.fadeIn();
-          status = true;
-       }else{
-          arrow.fadeOut();
-          form.fadeOut();
-          status = false;
-       }
-    })
- })
+         <div class="main">
+         <div class="logo">
+                  <img src="btl.png">
+         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">  
+
+          <i class="fas fa-bars"></i>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="stories.html">Stories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="communities.html">Communities</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="contact.html">Contact Us</a>
+            </li>
+             
+            <li class="nav-item">
+              <a class = "nav -link js-scroll-trigger" href = "#Login">Login</a>
+            </li>
+             
+            <li class="nav-item">
+              <a class = "nav -link js-scroll-trigger" href = "#Register">Register</a>
+            </li>
+          </ul>
+
+       
+
+
+
+<div>
+  <p> 
+    </br>
+          </br>
+    </br>
+  </br>
+  </br>
+</br>
+</br>
+</br>
+</body>
+</html>
+      
+
+
         
         <slider>
            <slide><p>Slide 1</p></slide>
