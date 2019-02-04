@@ -6,7 +6,8 @@ font-family: Calibri;
 
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../back.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-color: #fff;
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -75,9 +76,8 @@ li a {
 }
 
 li a:hover {
-    background-color: 	#D3D3D3;
+    background-color: #fff;
 }
-
 
 style="margin-left:25%;
 padding:1px 16px;
